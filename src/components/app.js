@@ -1,19 +1,19 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { NavigationBar } from './components/NavigationBar';
+import { NavigationBar } from './NavigationBar';
 
 
 import { Contact } from './Contact';
 import { Home } from './Home';
 import { About } from './About';
 
-import Sidebar from './components/Sidebar';
+import Sidebar from './Sidebar';
 import { Order } from './Order';
 
-import { FooterBar } from './components/Footer';
+import { FooterBar } from './Footer';
 
 
 
